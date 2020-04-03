@@ -1,0 +1,51 @@
+@media (max-width:700px){
+    .top-nav{
+        display: inherit;
+        height: auto;
+    }
+
+    .text-logo{
+        font-size: smaller;
+    }
+
+    .services {
+        display:inherit;
+        height: auto;
+    }
+
+    .service {
+        margin-top: auto;
+        
+    }
+
+    .image-content{
+        margin: auto;
+    }
+
+    .first-section {
+        display: block;
+        height: auto;
+        padding: 4%;
+    }
+
+    .four-items {
+        display: inherit;
+        height: auto;
+    }
+
+    .items{
+        margin: auto;
+    }
+
+    .team {
+        display: inherit;
+        height: auto;
+    }
+    
+    .card{
+        padding: 10px;
+        margin: auto;
+    }
+    
+    
+}

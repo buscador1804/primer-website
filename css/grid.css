@@ -1,0 +1,108 @@
+.container-sales{
+    max-width: 900px;
+    margin:auto;
+    box-shadow: none;
+    /* display: flex; */
+    padding: 5px;
+}
+
+.row{
+    display: flex;
+    box-shadow: 0 0 2px black;
+    margin: auto;
+}
+
+.col-1{
+    width: 8.3333%;
+}
+
+.col-2 {
+    width: 25%;
+}
+
+.col-3 {
+    width: 32%;
+}
+
+.col-4 {
+    width: 41%;
+}
+
+.col-4 p{
+    padding: 5%;
+}
+
+.col-5 {
+    width: 29%;
+}
+
+.col-6 {
+    width: 31%;
+}
+
+.col-7 {
+    width: 39%;
+}
+
+.col-8 {
+    width: 41%;
+}
+
+.col-8 p {
+    padding: 5%;
+}
+
+.col-9 {
+    width: 49%;
+}
+
+.col-10 {
+    width:81% ;
+}
+
+.col-11 {
+    width: 89%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+    padding: 15px;
+    margin: auto;
+}
+
+@media (max-width:700px){
+    .row{
+        display: inherit;
+    }
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12{
+        width: 100%;
+        display: inherit;
+        align-items: center;
+        justify-items: auto;
+    }
+
+
+    .payment-module{
+       margin:5px;
+       align-items: center;
+       
+    }
+
+    .input-section{
+        padding: 10px;
+    }
+}

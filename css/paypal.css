@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    text-align: center;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    height: 100vh;
+    text-decoration: none;
+    border: 1px solid var(--brown-color);
+}
+
+.paypal-content{
+    border: 1px solid var(--brown-color);
+}
+
+.paypal-content a{
+    color: blue;
+}
+
